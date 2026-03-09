@@ -15,6 +15,8 @@ def analyze(repo_url: str):
     analysis = analyze_project(readme, structure)
 
     return {
+        
         "structure": structure,
         "analysis": analysis
+
         }
