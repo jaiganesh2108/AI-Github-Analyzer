@@ -1,6 +1,6 @@
 import requests 
 
-GITHUB_API = ""
+GITHUB_API = "github_api_url_placeholder"  # Replace with actual GitHub API URL
 
 def parse_repo_url(repo_url):
     parts = repo_url.rstrip("/").split("/")
